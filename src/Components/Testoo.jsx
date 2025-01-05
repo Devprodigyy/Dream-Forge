@@ -91,7 +91,7 @@ const Testoo = () => {
     <>
       <section
         id="testimonials"
-        className="w-[90%] sm:w-[95%] md:w-[60%] mx-auto py-12 relative h-[60vh]"
+        className="w-[90%] sm:w-[95%] md:w-[60%] mx-auto py-12 relative min-h-[60vh]"
       >
         <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">
           What Our Clients Say
