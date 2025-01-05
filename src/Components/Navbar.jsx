@@ -89,7 +89,7 @@ const Navbar = () => {
         </div>
       </section>
 
-      <nav className="w-full h-[10vh] sticky z-30 top-0 px-3 bg-black border-b-2 border-white text-yellow-500 flex items-center justify-between">
+      <nav className="w-full h-[10vh] fixed z-30 top-0 px-3 bg-black border-b-2 border-white text-yellow-500 flex items-center justify-between">
         <h1 id="logo" className="text-[4vw] md:text-[2vw]">
           DreamForge
         </h1>

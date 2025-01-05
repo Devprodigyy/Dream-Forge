@@ -10,7 +10,7 @@ const Footer = () => {
             </div>
      <p className='text-white mt-6  hover:text-yellow-500'>&copy; 2023 DreamForge. All rights reserved.</p>
     <br />
-    <p className='text-white pb-10 hover:text-yellow-500'>Created by DEVPRODIGY <sup><i class="ri-gemini-fill text-yellow-400"></i></sup></p>
+    <p className='text-white pb-1 hover:text-yellow-500'>Created by DEVPRODIGY <sup><i class="ri-gemini-fill text-yellow-400"></i></sup></p>
    </footer>
   )
 }
