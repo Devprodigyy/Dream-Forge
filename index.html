@@ -16,6 +16,23 @@
 
 <body>
   <div id="root"></div>
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script> 
   <script type="module" src="/src/main.jsx"></script>
+  <script>
+    // Initialize Lenis
+const lenis = new Lenis(
+  {
+    lerp:0.06,
+  }
+);
+
+// Use requestAnimationFrame to continuously update the scroll
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
+  </script>
 </body>
 </html>
