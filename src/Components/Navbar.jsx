@@ -25,15 +25,16 @@ const Navbar = () => {
     });
   };
 
-   gsap.to("#menusec", {
-      top: "-120%",
-      duration: 2.5,
-      ease: "power3.inOut",
-    });
+  gsap.to("#menusec", {
+    top: "-120%",
+    duration: 2.5,
+    ease: "power3.inOut",
+  });
+
 
   return (
     <>
-      <section id="menusec"  className="absolute top-[-120%] z-40 h-full w-full bg-black text-white pt-4 px-4" >
+      <section id="menusec" className="absolute top-[-120%] z-40 h-full w-full bg-black text-white pt-4 px-4" >
         <h6
           onClick={closeMenu}
           className="h-[10vh] w-full items-center flex justify-end text-[3vh] text-end cursor-pointer"
@@ -92,56 +93,25 @@ const Navbar = () => {
         <h1 id="logo" className="text-[4vw] md:text-[2vw]">
           DreamForge
         </h1>
-        <div className="h-full w-[60%] hidden md:flex items-center justify-evenly xl:w-[40%]">
-          <Link
-  className="text-white text-[2.2vh]"
-  smooth={true}
-  duration={500}
-  to="home"
-  spy={true}
-  offset={-70} // Optional: Adjust if you have a fixed navbar
->
+        <div className="div h-full w-[60%] hidden md:flex items-center justify-evenly xl:w-[40%]">
+          <Link className="menutext text-white text-[2.2vh]" smooth={true} duration={500} to="home" spy={true} offset={-70} // Optional: Adjust if you have a fixed navbar
+          >
             Home
           </Link>
-          <Link
-            className="text-white text-[2.2vh]"
-            smooth={true}
-            duration={500}
-            to="features"
-            spy={true}
-            offset={-70}
+          <Link className="menutext text-white text-[2.2vh]" smooth={true} duration={500} to="features" spy={true} offset={-70}
           >
             Features
           </Link>
-          <Link
-            className="text-white text-[2.2vh]"
-            smooth={true}
-            duration={500}
-            to="services"
-            spy={true}
-            offset={-70}
+          <Link className="menutext text-white text-[2.2vh]" smooth={true} duration={500} to="services" spy={true} offset={-70}
           >
             Services
           </Link>
 
-
-          <Link
-            className="text-white text-[2.2vh]"
-            smooth={true}
-            duration={500}
-            to="about"
-            spy={true}
-            offset={-70}
+          <Link className="menutext text-white text-[2.2vh]" smooth={true} duration={500} to="about" spy={true} offset={-70}
           >
             About
           </Link>
-          <Link
-            className="text-white text-[2.2vh]"
-            smooth={true}
-            duration={500}
-            to="contact"
-            spy={true}
-            offset={-70}
+          <Link className="menutext text-white text-[2.2vh]" smooth={true} duration={500} to="contact" spy={true} offset={-70}
           >
             Contact
           </Link>

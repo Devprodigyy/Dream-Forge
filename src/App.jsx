@@ -16,9 +16,8 @@ import Cardss from './Components/Cardss';
 const App = () => {
   return (
     <>
-      <main className='relative'>
+      <main className='relative overflow-x-hidden'>
       {/* <Loading /> */}
-
         <Navbar />
         <Hero />
         <Features />
