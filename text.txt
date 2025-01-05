@@ -1,0 +1,14 @@
+ <h1 className='text-[5vw] text-yellow-500 py-3'>About Us</h1>
+            <h6 className='text-[3vw]'>Our Mission</h6>
+            <p className='text-[3vw] w-[80%] md:text-[2vh] text-center'>Our vision is to be the leading digital agency known
+                for our innovative solutions, exceptional quality, and
+                unwavering commitment to client success. We aim to
+                set new standards in the industry by continuously
+                evolving and adapting to the ever-changing digital
+                landscape. Our goal is to empower businesses of all
+                sizes to harness the full potential of digital
+                technology, enabling them to thrive in an increasingly
+                competitive market.Our mission is to provide our
+                clients with innovative and effective digital solutions
+                that elevate their brand and drive business growth.
+  </p>

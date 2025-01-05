@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  background: rgb(255, 231, 162);
+  background: radial-gradient(
+    circle,
+    rgba(255, 231, 162, 1) 0%,
+    rgba(255, 201, 41, 1) 66%
+  );
+}
+
+#ladki{
+  filter: drop-shadow(2px 4px 20px black);
+}
+#home{
+  background-image: url(../src/assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardbg{
+  background: rgb(255, 231, 162);
+  background: radial-gradient(
+    circle,
+    rgba(255, 231, 162, 1) 0%,
+    rgba(255, 201, 41, 1) 66%
+  );
+}
