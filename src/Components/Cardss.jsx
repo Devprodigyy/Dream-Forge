@@ -81,33 +81,32 @@ const Cardss = () => {
 
   return (
     <>
-    
-    
-    <h1 className=" pt-10 min-h-[5vh] top-0 text-center items-center justify-center text-[3vw] hidden md:flex bg-slate-100 font-bold">Services</h1>
-    
-    <section
-      id="cardss"
-      className="min-h-[60vh] bg-slate-100 w-full hidden flex-wrap justify-center items-center gap-8 p-8 perspective-[1200px] md:flex "
-    >
+      <h1 className=" pt-10 min-h-[5vh] top-0 text-center items-center justify-center text-[3vw] hidden md:flex bg-slate-100 font-bold">Services</h1>
 
-      {cardData.map((card, index) => (
-        <div
-          key={card.id}
-          ref={(el) => (cardsRef.current[index] = el)}
-          className="bg-white border-[3px] border-slate-900 shadow-xl rounded-lg max-w-[300px] flex flex-col items-center p-4 transform transition-transform"
-        >
-          <img
-            src={card.image}
-            alt={card.title}
-            className="h-40 w-full object-cover rounded-t-lg"
-          />
-          <div className="p-4">
-            <h2 className="text-lg font-semibold">{card.title}</h2>
-            <p className="text-gray-600">{card.description}</p>
+      <section
+        id="cardss"
+        className="bg-slate-100 min-h-[60vh] w-full hidden flex-wrap justify-center items-center gap-8 p-8 perspective-[1200px] md:flex "
+      >
+
+        {cardData.map((card, index) => (
+          <div
+            
+            key={card.id}
+            ref={(el) => (cardsRef.current[index] = el)}
+            className="bg-slate-100 border-[3px] border-slate-900 shadow-xl rounded-lg max-w-[300px] h-[350px] flex flex-col items-center p-4 transform transition-transform"
+          >
+            <img
+              src={card.image}
+              alt={card.title}
+              className="h-40 w-full object-cover rounded-t-lg"
+            />
+            <div className="p-4">
+              <h2 className="text-lg font-semibold">{card.title}</h2>
+              <p className="text-gray-600">{card.description}</p>
+            </div>
           </div>
-        </div>
-      ))}
-    </section>
+        ))}
+      </section>
     </>
   );
 };

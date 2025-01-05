@@ -40,3 +40,17 @@ body {
     rgba(255, 201, 41, 1) 66%
   );
 }
+
+.yellowbg{
+ background-image: url(../src/assets/bg.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+background-attachment: fixed;
+}
+
+/* .testobg{
+  background-image: url(https://img.freepik.com/free-vector/abstract-orange-light-background-atom-science-design-vector-illustration_1182-2378.jpg?t=st=1736089616~exp=1736093216~hmac=a266af7793c72c7cc75992c4667218530290765b681a3b84a7eb99761efbf076&w=1060);
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-attachment: fixed;
+} */

@@ -10,25 +10,32 @@ import Chooseus from './Components/Chooseus';
 import Testoo from './Components/Testoo';
 import Card from './Components/Cards';
 import Cardss from './Components/Cardss';
+// import Loading from './Components/Loading';
 
 
 const App = () => {
   return (
-    <main className='relative'>
+    <>
+      <main className='relative'>
+      {/* <Loading /> */}
 
-      <Navbar />
-      <Hero />
-      <Features />
-      <Card />
-      <Cardss />
-      <About />
-      <Chooseus />
-      <Testoo />
-      <FAQ />
-      <Connect />
-      <Footer />
+        <Navbar />
+        <Hero />
+        <Features />
+        <Card />
+        <Cardss />
+        <About />
+        <Chooseus />
+        <Testoo />
+        <FAQ />
+        <Connect />
+        <Footer />
 
-    </main>
+      </main>
+
+
+    </>
+
   )
 }
 
